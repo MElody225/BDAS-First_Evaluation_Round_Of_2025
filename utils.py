@@ -1,4 +1,3 @@
-# utils/utils.py
 import requests
 import os
 from PIL import Image
@@ -11,6 +10,7 @@ def download_image(url, save_path):
     if response.status_code == 200:
         with open(save_path, "wb") as f:
             f.write(response.content)
-        print(f"✅ 图片已下载: {save_path}")
+        print(f" √ 图片已下载: {save_path}")
     else:
-        print("❌ 下载失败:", response.status_code)
+
+        print(" × 下载失败:", response.status_code)
