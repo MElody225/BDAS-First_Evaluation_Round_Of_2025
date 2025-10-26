@@ -1,4 +1,3 @@
-# main.py
 from filters import grayscale, invert, warm, cool, oil_painting, anime_style
 from utils import download_image
 from PIL import Image
@@ -17,12 +16,12 @@ def apply_filters(img, output_dir="output"):
     }
 
     for name, func in filters.items():
-        print(f"🎨 Applying filter: {name}")
+        print(f"Applying filter: {name}")
         try:
             result = func(img)
             result.save(os.path.join(output_dir, f"{name}.png"))
         except Exception as e:
-            print(f"❌ {name} failed: {e}")
+            print(f"{name} failed: {e}")
 
 
 if __name__ == "__main__":
@@ -33,4 +32,5 @@ if __name__ == "__main__":
     img = Image.open(save_path).convert("RGB")
 
     apply_filters(img)
-    print("✅ 所有滤镜已处理并保存到 output/ 目录")
+    print("所有滤镜已处理并保存到./output")
+
