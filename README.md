@@ -79,14 +79,14 @@
    ```
    git clone https://gitcode.com/2403_87703338/BDAS-First_Evaluation_Round_Of_2025.git
    ```
-2. **安装依赖库**：
-   ```
-   pip install -r requirements.txt
-   ```
-3. **进入项目文件夹**：
+2. **进入项目文件夹**：
    ```
    cd BDAS-First_Evaluation_Round_Of_2025
    ```  
+3. **安装依赖库**：
+   ```
+   pip install -r requirements.txt
+   ```
 4. **运行 `main.py` 文件**：
    ```
    python main.py
