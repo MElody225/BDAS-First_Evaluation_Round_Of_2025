@@ -59,7 +59,7 @@
 ### 程序部署题
 请在此处插入您的程序运行结果截图：
 
-![程序运行结果截图]
+![程序运行结果截图](asset/image.png)
 
 注意：请确保您的答案清晰、有条理，并按照题目要求进行编号和排版。
 
@@ -70,4 +70,34 @@
 祝你在考核中取得好成绩，期待你的精彩表现！
 
 ## 项目部署方法
+
+1. **克隆项目到本地**
+   ```
+   git clone https://github.com/tkzzzzzz6/BDAS-First_Evaluation_Round_Of_2024.git
+   ```
+   **或者**:
+   ```
+   git clone https://gitcode.com/tkzzzzzz6/BDAS-First_Evaluation_Round_Of_2024.git
+   ```
+2. **安装依赖库**：
+   ```
+   pip install -r requirements.txt
+   ```
+   **或者**:
+   ```
+   conda install Pillow requests matplotlib rich
+   ```
+3. **运行 `image_rotator.py` 文件**：
+   ```
+   python image_rotator.py
+   ```
+
+## 使用的库说明
+
+| 库名 | 版本 | 用途 | 功能 |
+|------|------|------|------|
+| Pillow | 9.5.0 | 图像处理库 | 用于打开、操作和保存各种图像文件格式 |
+| requests | 2.31.0 | HTTP库 | 用于发送HTTP请求，下载网络图片 |
+| matplotlib | 3.7.1 | 绘图库 | 用于创建静态、动态和交互式可视化 |
+| rich | 13.3.5 | 终端美化库 | 用于在终端中创建富文本和美化输出，如进度条 |
 
