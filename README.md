@@ -83,7 +83,11 @@
    ```
    pip install -r requirements.txt
    ```
-3. **运行 `main.py` 文件**：
+3. **进入项目文件夹**：
+   ```
+   cd BDAS-First_Evaluation_Round_Of_2025
+   ```  
+4. **运行 `main.py` 文件**：
    ```
    python main.py
    ```
