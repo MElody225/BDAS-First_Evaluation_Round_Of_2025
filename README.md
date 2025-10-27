@@ -73,31 +73,30 @@
 
 1. **克隆项目到本地**
    ```
-   git clone https://github.com/tkzzzzzz6/BDAS-First_Evaluation_Round_Of_2024.git
+   git clone https://github.com/MElody225/BDAS-First_Evaluation_Round_Of_2025.git
    ```
    **或者**:
    ```
-   git clone https://gitcode.com/tkzzzzzz6/BDAS-First_Evaluation_Round_Of_2024.git
+   git clone https://gitcode.com/2403_87703338/BDAS-First_Evaluation_Round_Of_2025.git
    ```
 2. **安装依赖库**：
    ```
    pip install -r requirements.txt
    ```
-   **或者**:
+3. **运行 `main.py` 文件**：
    ```
-   conda install Pillow requests matplotlib rich
-   ```
-3. **运行 `image_rotator.py` 文件**：
-   ```
-   python image_rotator.py
+   python main.py
    ```
 
 ## 使用的库说明
 
 | 库名 | 版本 | 用途 | 功能 |
-|------|------|------|------|
-| Pillow | 9.5.0 | 图像处理库 | 用于打开、操作和保存各种图像文件格式 |
-| requests | 2.31.0 | HTTP库 | 用于发送HTTP请求，下载网络图片 |
-| matplotlib | 3.7.1 | 绘图库 | 用于创建静态、动态和交互式可视化 |
-| rich | 13.3.5 | 终端美化库 | 用于在终端中创建富文本和美化输出，如进度条 |
+|------|--------|--------|----------------|
+| **Pillow** | ≥10.0.0 | 图像处理库 | 用于打开、操作和保存各种图像文件格式 |
+| **requests** | ≥2.31.0 | HTTP 请求库 | 用于发送HTTP请求，下载网络图片 |
+| **matplotlib** | ≥3.7.0 | 绘图库 | 用于创建静态、动态和交互式可视化 |
+| **opencv-python** | ≥4.8.0 | 计算机视觉核心库 | 用于计算机视觉任务，如图像读取、滤波、边缘检测等 |
+| **opencv-contrib-python** | ≥4.8.0 | 计算机视觉扩展库 | 含有额外的OpenCV模块，如特征检测、跟踪、结构光重建等高级功能 |
+| **numpy** | ≥1.24.0 | 科学计算库 | 用于高效的多维数组运算、线性代数与矩阵处理 |
+
 
